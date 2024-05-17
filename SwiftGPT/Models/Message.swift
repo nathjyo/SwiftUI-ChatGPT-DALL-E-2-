@@ -1,8 +1,8 @@
 //
 //  Message.swift
-//  OpenAI chat-dalle
+//  SwiftGPT
 //
-//  Created by kz on 17/02/2023.
+//  Created by mbabicz on 17/02/2023.
 //
 
 import Foundation
@@ -26,3 +26,4 @@ struct Message: Identifiable, Equatable {
         return lhs.id == rhs.id && lhs.content as AnyObject === rhs.content as AnyObject && lhs.type == rhs.type && lhs.isUserMessage == rhs.isUserMessage
     }
 }
+    
